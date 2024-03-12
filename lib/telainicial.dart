@@ -52,7 +52,7 @@ class _telainicialState extends State<telainicial> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 0),
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
                 child: Row(
                   children: [
                     Padding(
@@ -197,7 +197,195 @@ class _telainicialState extends State<telainicial> {
                   ],
                 ),
               ),
-              Row()
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [              
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 16,horizontal: 0),
+                        child: Text('Seus Mixes mais ouvidos', style: GoogleFonts.figtree(fontSize: 22, fontWeight: FontWeight.w700, color: Colors.white)),
+                      ),
+                      SizedBox(
+                        height: 128,
+                        width: double.infinity,
+                        child: ListView(
+                          scrollDirection: Axis.horizontal,
+                          children: [
+                            Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),
+                            SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),
+                              SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),
+                              SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),      
+                             SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),                                     
+                          ],
+                        ),
+                      )
+                  ],
+                ),
+              ),
+               Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [              
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 16,horizontal: 0),
+                        child: Text('Seus Mixes mais ouvidos', style: GoogleFonts.figtree(fontSize: 22, fontWeight: FontWeight.w700, color: Colors.white)),
+                      ),
+                      SizedBox(
+                        height: 128,
+                        width: double.infinity,
+                        child: ListView(
+                          scrollDirection: Axis.horizontal,
+                          children: [
+                            Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),
+                            SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),
+                              SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),
+                              SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),      
+                             SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),                                     
+                          ],
+                        ),
+                      )
+                  ],
+                ),
+              ),
+               Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [              
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 16,horizontal: 0),
+                        child: Text('Seus Mixes mais ouvidos', style: GoogleFonts.figtree(fontSize: 22, fontWeight: FontWeight.w700, color: Colors.white)),
+                      ),
+                      SizedBox(
+                        height: 128,
+                        width: double.infinity,
+                        child: ListView(
+                          scrollDirection: Axis.horizontal,
+                          children: [
+                            Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),
+                            SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),
+                              SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),
+                              SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),      
+                             SizedBox(
+                              width: 16,
+                            ),
+                             Container(
+                              width: 128,
+                              height: 128,
+                              decoration: BoxDecoration(image: DecorationImage (image:AssetImage('assets/norepeat.jpg'))
+                              ),
+                            ),                                     
+                          ],
+                        ),
+                      )
+                  ],
+                ),
+              ),
             ],
           )
         ],

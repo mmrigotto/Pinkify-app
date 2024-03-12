@@ -9,7 +9,7 @@ BottomNavigationBar bottomNavigationBar(int itemSelecionado, nextStation){
         unselectedItemColor: Colors.white,
         items: [
             bottomNavigationBarItem(Icons.home, 'Início'),
-            bottomNavigationBarItem(Icons.search, 'Busca'),
+            bottomNavigationBarItem(Icons.search, 'Buscar'),
             bottomNavigationBarItem(Icons.my_library_books, 'Sua biblioteca')
           ],
         );
