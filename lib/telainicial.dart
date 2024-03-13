@@ -52,7 +52,7 @@ class _telainicialState extends State<telainicial> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+                padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 0),
                 child: Row(
                   children: [
                     Padding(
@@ -61,15 +61,15 @@ class _telainicialState extends State<telainicial> {
                         children: [
                           Container(
                             decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                            width: 190,
+                            width: 200,
                             height: 80,
                             child: Card(
                               child: Row(
                                 children: [
-                                  Image.asset('assets/norepeat.jpg'),
+                                  Image.asset('assets/mixMelancolico.jpg'),
                                   Padding(
                                     padding: const EdgeInsets.all(16.0),
-                                    child: Text('No Repeat', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                    child: Text('Mix Melancólico', style: GoogleFonts.poppins(fontSize: 8, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                   )
                                 ],
                               ),
@@ -77,15 +77,15 @@ class _telainicialState extends State<telainicial> {
                           ),
                           Container(
                             decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                            width: 190,
+                            width: 200,
                             height: 80,
                             child: Card(
                               child: Row(
                                 children: [
-                                  Image.asset('assets/norepeat.jpg'),
+                                  Image.asset('assets/mixDeftones.jpg'),
                                   Padding(
                                     padding: const EdgeInsets.all(16.0),
-                                    child: Text('No Repeat', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                    child: Text('Mix Deftones', style: GoogleFonts.poppins(fontSize: 10, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                   )
                                 ],
                               ),
@@ -93,7 +93,7 @@ class _telainicialState extends State<telainicial> {
                           ),
                           Container(
                             decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                            width: 190,
+                            width: 200,
                             height: 80,
                             child: Card(
                               child: Row(
@@ -101,7 +101,7 @@ class _telainicialState extends State<telainicial> {
                                   Image.asset('assets/norepeat.jpg'),
                                   Padding(
                                     padding: const EdgeInsets.all(16.0),
-                                    child: Text('No Repeat', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                    child: Text('On Repeat', style: GoogleFonts.poppins(fontSize: 10, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                   )
                                 ],
                               ),
@@ -109,15 +109,15 @@ class _telainicialState extends State<telainicial> {
                           ),
                           Container(
                             decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                            width: 190,
+                            width: 200,
                             height: 80,
                             child: Card(
                               child: Row(
                                 children: [
-                                  Image.asset('assets/norepeat.jpg'),
+                                  Image.asset('assets/mixMetal.jpg'),
                                   Padding(
                                     padding: const EdgeInsets.all(16.0),
-                                    child: Text('No Repeat', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                    child: Text('Mix Metal', style: GoogleFonts.poppins(fontSize: 10, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                   )
                                 ],
                               ),
@@ -130,15 +130,15 @@ class _telainicialState extends State<telainicial> {
                       children: [
                         Container(
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                          width: 190,
+                          width: 200,
                           height: 80,
                           child: Card(
                             child: Row(
                               children: [
-                                Image.asset('assets/norepeat.jpg'),
+                                Image.asset('assets/mixMpb.jpg'),
                                 Padding(
                                   padding: const EdgeInsets.all(16.0),
-                                  child: Text('No Repeat', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                  child: Text('Mix MPB', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                 )
                               ],
                             ),
@@ -146,15 +146,15 @@ class _telainicialState extends State<telainicial> {
                         ),
                         Container(
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                          width: 190,
+                          width: 200,
                           height: 80,
                           child: Card(
                             child: Row(
                               children: [
-                                Image.asset('assets/norepeat.jpg'),
+                                Image.asset('assets/mixPop.jpg'),
                                 Padding(
                                   padding: const EdgeInsets.all(16.0),
-                                  child: Text('No Repeat', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                  child: Text('mix Pop', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                 )
                               ],
                             ),
@@ -162,15 +162,15 @@ class _telainicialState extends State<telainicial> {
                         ),
                         Container(
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                          width: 190,
+                          width: 200,
                           height: 80,
                           child: Card(
                             child: Row(
                               children: [
-                                Image.asset('assets/norepeat.jpg'),
+                                Image.asset('assets/mix2000.jpg'),
                                 Padding(
                                   padding: const EdgeInsets.all(16.0),
-                                  child: Text('No Repeat', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                  child: Text('Mix 2000', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                 )
                               ],
                             ),
@@ -178,15 +178,15 @@ class _telainicialState extends State<telainicial> {
                         ),
                         Container(
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                          width: 190,
+                          width: 200,
                           height: 80,
                           child: Card(
                             child: Row(
                               children: [
-                                Image.asset('assets/norepeat.jpg'),
+                                Image.asset('assets/mixFeliz.jpg'),
                                 Padding(
                                   padding: const EdgeInsets.all(16.0),
-                                  child: Text('No Repeat', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                  child: Text('Mix Feliz', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                 )
                               ],
                             ),
