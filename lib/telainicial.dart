@@ -18,7 +18,10 @@ class _telainicialState extends State<telainicial> {
         child: Row(
           children: [
             Icon(Icons.account_circle, color: Color.fromARGB(255, 253, 205, 217), size: 30,),
-           
+
+            SizedBox(
+              width: 10,
+            ),           
             Container(
               margin: const EdgeInsets.all(4),
               padding: const EdgeInsets.all(8),
@@ -52,7 +55,7 @@ class _telainicialState extends State<telainicial> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 0),
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 0),
                 child: Row(
                   children: [
                     Padding(
@@ -61,7 +64,7 @@ class _telainicialState extends State<telainicial> {
                         children: [
                           Container(
                             decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                            width: 200,
+                            width: 180,
                             height: 80,
                             child: Card(
                               child: Row(
@@ -69,7 +72,7 @@ class _telainicialState extends State<telainicial> {
                                   Image.asset('assets/mixMelancolico.jpg'),
                                   Padding(
                                     padding: const EdgeInsets.all(16.0),
-                                    child: Text('Mix Melancólico', style: GoogleFonts.poppins(fontSize: 8, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                    child: Text('Mix\nMelancólico', style: GoogleFonts.poppins(fontSize:10, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.start,),
                                   )
                                 ],
                               ),
@@ -77,7 +80,7 @@ class _telainicialState extends State<telainicial> {
                           ),
                           Container(
                             decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                            width: 200,
+                            width: 180,
                             height: 80,
                             child: Card(
                               child: Row(
@@ -85,7 +88,7 @@ class _telainicialState extends State<telainicial> {
                                   Image.asset('assets/mixDeftones.jpg'),
                                   Padding(
                                     padding: const EdgeInsets.all(16.0),
-                                    child: Text('Mix Deftones', style: GoogleFonts.poppins(fontSize: 10, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                    child: Text('Mix\nDeftones', style: GoogleFonts.poppins(fontSize:12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.start),
                                   )
                                 ],
                               ),
@@ -93,7 +96,7 @@ class _telainicialState extends State<telainicial> {
                           ),
                           Container(
                             decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                            width: 200,
+                            width: 180,
                             height: 80,
                             child: Card(
                               child: Row(
@@ -101,7 +104,7 @@ class _telainicialState extends State<telainicial> {
                                   Image.asset('assets/norepeat.jpg'),
                                   Padding(
                                     padding: const EdgeInsets.all(16.0),
-                                    child: Text('On Repeat', style: GoogleFonts.poppins(fontSize: 10, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                    child: Text('On Repeat', style: GoogleFonts.poppins(fontSize:12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                   )
                                 ],
                               ),
@@ -109,7 +112,7 @@ class _telainicialState extends State<telainicial> {
                           ),
                           Container(
                             decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                            width: 200,
+                            width: 180,
                             height: 80,
                             child: Card(
                               child: Row(
@@ -117,7 +120,8 @@ class _telainicialState extends State<telainicial> {
                                   Image.asset('assets/mixMetal.jpg'),
                                   Padding(
                                     padding: const EdgeInsets.all(16.0),
-                                    child: Text('Mix Metal', style: GoogleFonts.poppins(fontSize: 10, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                    child: Text('Mix Metal', style: GoogleFonts.poppins(fontSize:12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+
                                   )
                                 ],
                               ),
@@ -130,7 +134,7 @@ class _telainicialState extends State<telainicial> {
                       children: [
                         Container(
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                          width: 200,
+                          width: 180,
                           height: 80,
                           child: Card(
                             child: Row(
@@ -138,7 +142,7 @@ class _telainicialState extends State<telainicial> {
                                 Image.asset('assets/mixMpb.jpg'),
                                 Padding(
                                   padding: const EdgeInsets.all(16.0),
-                                  child: Text('Mix MPB', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                  child: Text('Mix MPB', style: GoogleFonts.poppins(fontSize:12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                 )
                               ],
                             ),
@@ -146,7 +150,7 @@ class _telainicialState extends State<telainicial> {
                         ),
                         Container(
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                          width: 200,
+                          width: 180,
                           height: 80,
                           child: Card(
                             child: Row(
@@ -154,7 +158,7 @@ class _telainicialState extends State<telainicial> {
                                 Image.asset('assets/mixPop.jpg'),
                                 Padding(
                                   padding: const EdgeInsets.all(16.0),
-                                  child: Text('mix Pop', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                  child: Text('mix Pop', style: GoogleFonts.poppins(fontSize:12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                 )
                               ],
                             ),
@@ -162,7 +166,7 @@ class _telainicialState extends State<telainicial> {
                         ),
                         Container(
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                          width: 200,
+                          width: 180,
                           height: 80,
                           child: Card(
                             child: Row(
@@ -170,7 +174,7 @@ class _telainicialState extends State<telainicial> {
                                 Image.asset('assets/mix2000.jpg'),
                                 Padding(
                                   padding: const EdgeInsets.all(16.0),
-                                  child: Text('Mix 2000', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                  child: Text('Mix 2000', style: GoogleFonts.poppins(fontSize:12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                 )
                               ],
                             ),
@@ -178,7 +182,7 @@ class _telainicialState extends State<telainicial> {
                         ),
                         Container(
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                          width: 200,
+                          width: 180,
                           height: 80,
                           child: Card(
                             child: Row(
@@ -186,7 +190,7 @@ class _telainicialState extends State<telainicial> {
                                 Image.asset('assets/mixFeliz.jpg'),
                                 Padding(
                                   padding: const EdgeInsets.all(16.0),
-                                  child: Text('Mix Feliz', style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
+                                  child: Text('Mix Feliz', style: GoogleFonts.poppins(fontSize:12, fontWeight: FontWeight.w500, color: Colors.white), textAlign: TextAlign.center,),
                                 )
                               ],
                             ),
@@ -207,7 +211,7 @@ class _telainicialState extends State<telainicial> {
                         child: Text('Seus Mixes mais ouvidos', style: GoogleFonts.figtree(fontSize: 22, fontWeight: FontWeight.w700, color: Colors.white)),
                       ),
                       SizedBox(
-                        height: 128,
+                        height: 175,
                         width: double.infinity,
                         child: ListView(
                           scrollDirection: Axis.horizontal,
