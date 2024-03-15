@@ -53,13 +53,13 @@ class _telabuscarState extends State<telabuscar> {
                   Text('Navegar por todas as seções', style: GoogleFonts.figtree( fontSize: 20, color: Colors.white, fontWeight: FontWeight.w700)),
                   Wrap(
             children: [
-              card(380, 120,  185, 238, 190, 'Top Brasil', 'assets/topBrasil.png', 100, 100),
-              card(380, 120,  185, 238, 190, 'Top Brasil', 'assets/topBrasil.png', 100, 100),
-              card(380, 120,  185, 238, 190, 'Top Brasil', 'assets/topBrasil.png', 100, 100),
-              card(380, 120,  185, 238, 190, 'Top Brasil', 'assets/topBrasil.png', 100, 100),
-              card(380, 120,  185, 238, 190, 'Top Brasil', 'assets/topBrasil.png', 100, 100),
-              card(380, 120,  185, 238, 190, 'Top Brasil', 'assets/topBrasil.png', 100, 100),
-              card(380, 120,  185, 238, 190, 'Top Brasil', 'assets/topBrasil.png', 100, 100),
+              card(380, 120,  185, 238, 190, 'Brasil   ', 'assets/topBrasil.png', 100, 100),
+              card(380, 120,  30, 48, 96, '100% você   ', 'assets/paravoce.jpg', 100, 100),
+              card(380, 120,  1, 100, 80, 'Podcasts    ', 'assets/podcast.jpg', 100, 100),
+              card(380, 120,  246,114,161, 'Verão      ', 'assets/verao.jpg', 100, 100),
+              card(380, 120,  250,230,45, 'Funk        ', 'assets/funk.jpg', 100, 100),
+              card(380, 120,  226,181,64, 'Culinária   ', 'assets/culinaria.jpg', 100, 100),
+              card(380, 120,  246,114,161, 'Kpop       ', 'assets/kpop.jpg', 100, 100),
 
             ],
           )

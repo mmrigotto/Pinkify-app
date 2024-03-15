@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:spotify/bottomnavigationbar.dart';
 import 'package:spotify/telabuscar.dart';
 import 'package:spotify/telainicial.dart';
+import 'package:spotify/telabiblioteca.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -22,7 +23,7 @@ class _HomePageState extends State<HomePage> {
   List<Widget> telas = const [
     telainicial(),
     telabuscar(),
-    //telabiblioteca(),
+    telabiblioteca(),
     ];
 
 
